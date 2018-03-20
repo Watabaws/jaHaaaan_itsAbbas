@@ -1,21 +1,28 @@
+<!--
+Adam Abbas, Ibnul Jahan
+SoftDev2 pd7
+K12 -- Medallions ...of Data!
+2018-03-20
+-->
+
 <!DOCTYPE html>
 <html>
   <head>
-    <title> Korea vs.    Medals</title>
+    <title> Korea vs. Canada Medals</title>
   </head>
   <body>
-    <svg id="vimage" height="500"
-      width="500" style="border: 1px solid;">
-      <circle cx="100" cy="150" r="10px" fill="yellow"></circle>
-      <circle cx="250" cy="150" r="10px" fill="gray"></circle>
-      <circle cx="350" cy="150" r="10px" fill="brown"></circle>
-      <circle cx="100" cy="450" r="10px" fill="yellow"></circle>
-      <circle cx="250" cy="450" r="10px" fill="gray"></circle>
-      <circle cx="350" cy="450" r="10px" fill="brown"></circle>
+    <svg id="vimage" height="300"
+      width="800" style="border: 1px solid;">
+      <circle cx="200" cy="150" r="10px" fill="yellow"></circle>
+      <circle cx="400" cy="150" r="10px" fill="gray"></circle>
+      <circle cx="600" cy="150" r="10px" fill="brown"></circle>
     </svg> <br />
     <p>
-      Top row is Korea, bottom row is...
+      You are viewing data for...
     </p>
+    <h2 id="country">Korea</h2>
+    <br>
+    <button id="change">Switch to Canada</button>
   </body>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="count.js"></script>
